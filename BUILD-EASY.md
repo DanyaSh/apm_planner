@@ -20,6 +20,7 @@ sudo ln -s $HOME/Qt5.9.3/5.9.3/gcc_64/bin/qmake /usr/bin/qmake
 mkdir ~/workspace
 cd ~/workspace/
 git clone https://github.com/diydrones/apm_planner
+cd apm_planer/
 qmake apm_planner.pro 
 make -j4 # use -j8 on i7
 
